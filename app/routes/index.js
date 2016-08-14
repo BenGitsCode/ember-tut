@@ -1,5 +1,11 @@
 import Ember from 'ember';
 
+export default Ember.Route.extend({
+  model() {
+    return this.get('store').findAll('rental');
+  }
+});
+
 let rentals = [{
   id: 1,
   title: 'Grand Old Mansion',
