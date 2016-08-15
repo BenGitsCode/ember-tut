@@ -1,3 +1,4 @@
+<<<<<<< 2e9e16b90b2f9a453c8fd95897f767911b734b5f
 /**
  * This is dummy file that exists for the sole purpose
  * of allowing tests to run directly in the browser as
@@ -17,3 +18,18 @@
  * Hence the purpose of this fake file. This file is served
  * directly from the express server to satisify the script load.
  */
+=======
+/*jshint node:true*/
+module.exports = {
+  "framework": "qunit",
+  "test_page": "tests/index.html?hidepassed",
+  "disable_watching": true,
+  "launch_in_ci": [
+    "PhantomJS"
+  ],
+  "launch_in_dev": [
+    "PhantomJS",
+    "Chrome"
+  ]
+};
+>>>>>>> Initial Commit from Ember CLI v2.5.1

@@ -7,14 +7,20 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< 2e9e16b90b2f9a453c8fd95897f767911b734b5f
     <base href="/" />
 <meta name="super-rentals/config/environment" content="%7B%22modulePrefix%22%3A%22super-rentals%22%2C%22environment%22%3A%22test%22%2C%22baseURL%22%3A%22/%22%2C%22locationType%22%3A%22none%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22LOG_ACTIVE_GENERATION%22%3Afalse%2C%22LOG_VIEW_LOOKUPS%22%3Afalse%2C%22rootElement%22%3A%22%23ember-testing%22%2C%22name%22%3A%22super-rentals%22%2C%22version%22%3A%220.0.0+45c5747f%22%7D%2C%22ember-cli-mirage%22%3A%7B%22usingProxy%22%3Afalse%2C%22useDefaultPassthroughs%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Atrue%7D" />
     
+=======
+    {{content-for "head"}}
+    {{content-for "test-head"}}
+>>>>>>> Initial Commit from Ember CLI v2.5.1
 
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/super-rentals.css">
     <link rel="stylesheet" href="assets/test-support.css">
 
+<<<<<<< 2e9e16b90b2f9a453c8fd95897f767911b734b5f
     
     
   </head>
@@ -27,6 +33,14 @@
   <div id="ember-testing"></div>
 </div>
 
+=======
+    {{content-for "head-footer"}}
+    {{content-for "test-head-footer"}}
+  </head>
+  <body>
+    {{content-for "body"}}
+    {{content-for "test-body"}}
+>>>>>>> Initial Commit from Ember CLI v2.5.1
 
     <script src="testem.js" integrity=""></script>
     <script src="assets/vendor.js"></script>
@@ -35,7 +49,12 @@
     <script src="assets/tests.js"></script>
     <script src="assets/test-loader.js"></script>
 
+<<<<<<< 2e9e16b90b2f9a453c8fd95897f767911b734b5f
     
     <script>Ember.assert('The tests file was not loaded. Make sure your tests index.html includes "assets/tests.js".', EmberENV.TESTS_FILE_LOADED);</script>
+=======
+    {{content-for "body-footer"}}
+    {{content-for "test-body-footer"}}
+>>>>>>> Initial Commit from Ember CLI v2.5.1
   </body>
 </html>
